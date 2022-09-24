@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Luckiest Guy', cursive;
+
+    /* transition: all 0.5s ease-in-out; */
+}
+
+h1{
+    font-size: 4rem;
+    
+}
+
+.conatiner{
+    background: wheat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    display: block;
+    position: absolute;
+    top: 0.8rem;
+    color: rgb(167, 7, 7);
+    /* border: 2px solid black; */
+    
+
+}
+
+.pd{
+    position: absolute;
+    top: 20%;
+    font-size: 0.8rem;
+}
+
+.disXY{
+    font-size: 2rem;
+    color: rgb(235, 25, 147);
+}
+
+section.boxConatiner{
+    position: absolute;
+    top: 30%;
+
+    border: 10px solid rgb(72, 207, 10);
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    background:  #f7f3f3;
+
+
+}
+
+.box{
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid rgb(104, 100, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: grab;
+
+}
+.selectedX{
+    color: rgb(255, 174, 0);
+    border-radius: 8px;
+    cursor: none;
+    border: 3px solid;
+    border-color: rgb(235, 179, 127);
+    background: linear-gradient(45deg, rgba(200,195,195,1) 19%, rgba(251,209,209,0.9192051820728291) 72%);
+    
+}
+.selectedO{
+    font-size: 2.5rem;
+    cursor: none;
+    color: red;
+    border: 3px solid;
+    border-color: rgb(117, 84, 84);
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgba(200,195,195,1) 19%, rgba(251,209,209,0.9192051820728291) 72%);
+
+}
+.selectedO:hover{
+    
+    background: linear-gradient(45deg, rgba(200,195,195,1) 19%, rgba(251,209,209,0.9192051820728291) 72%);
+    
+}
+.selectedX:hover{
+    background: linear-gradient(45deg, rgba(200,195,195,1) 19%, rgba(251,209,209,0.9192051820728291) 72%);
+}
+
+
+.box:hover{
+    border: 3px solid black;
+}
+
+.announance{
+    position: absolute;
+    top: 43%;
+    font-size: 2rem;
+    transition: all 1s ease-in-out;
+}
+
+.controls{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.wonstatus{
+    font-size: 3rem;
+    color: rgb(174, 0, 255);
+}
+.wonstatus span{
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(255, 0, 119);
+}
+.afterannouncing{
+    transform: translateY(320%);
+    font-size: 1rem;
+
+}
+
+.abhi{
+    font-weight: 100;
+}
+.abhi a{
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    /* text-decoration: none; */
+}
+.abhi a:hover{
+    text-decoration: none;
+    color: rgb(152, 159, 251);
+}
